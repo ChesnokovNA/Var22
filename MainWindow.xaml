@@ -1,0 +1,18 @@
+﻿<Window x:Class="Var22.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Var22"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="312.797">
+    <Grid Margin="0,0,2,-1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="83*"/>
+            <RowDefinition Height="87*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Введите количество грибов" Margin="52,0,0,23" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="200"/>
+        <TextBox x:Name="txtProv" Height="40" Width="200" HorizontalAlignment="Left" Margin="52,0,0,65" Grid.RowSpan="2" VerticalAlignment="Bottom"/>
+        <Button x:Name="btnVyp" Height="40" Width="200" Content="Выполнить" Margin="52,27,0,0" Click="btnVyp_Click" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
